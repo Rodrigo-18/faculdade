@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ajuda</title>
+</head>
+<body>
+    <h1 id="titulo">Central de Ajuda</h1>
+    <button onclick="mudarTexto()">Clique aqui</button>
+
+    <script>
+        function mudarTexto() {
+            document.getElementById("titulo").innerText = "Texto alterado via JavaScript!";
+        }
+    </script>
+</body>
+</html>
